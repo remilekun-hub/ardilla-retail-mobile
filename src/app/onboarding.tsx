@@ -62,7 +62,7 @@ export default function Onboarding() {
 								letters
 							</Text>
 						</View>
-						<View className="flex flex-row items-center gap-2 mb-4">
+						<View className="flex flex-row items-center gap-2 mb-4 flex-shrink">
 							<View className="flex self-start">
 								<CheckCircleIcon
 									size={15}
@@ -230,7 +230,7 @@ export default function Onboarding() {
 					</Text>
 
 					<View className="mt-1">
-						<View className="flex flex-row items-center gap-2 mb-5">
+						<View className="flex flex-row items-center gap-2 mb-6">
 							<View className="self-start">
 								<CheckCircleIcon
 									size={15}
@@ -238,7 +238,7 @@ export default function Onboarding() {
 									strokeWidth={2}
 								/>
 							</View>
-							<View className="flex">
+							<View className="flex  flex-shrink">
 								<Text className="text-[13px] font-[500] text-primary leading-6 mb-2">
 									Use good lighting
 								</Text>
@@ -249,7 +249,7 @@ export default function Onboarding() {
 								</Text>
 							</View>
 						</View>
-						<View className="flex flex-row items-center gap-2 mb-5">
+						<View className="flex-row items-center mb-6 gap-2">
 							<View className="self-start">
 								<CheckCircleIcon
 									size={15}
@@ -257,7 +257,7 @@ export default function Onboarding() {
 									strokeWidth={2}
 								/>
 							</View>
-							<View className="flex">
+							<View className="flex flex-col flex-shrink">
 								<Text className="text-[13px] font-[500] text-primary leading-6 mb-2">
 									No head or face coverings
 								</Text>
@@ -331,75 +331,6 @@ export default function Onboarding() {
 					<ChevronLeftIcon size={24} color="#3D0072" strokeWidth={2.5} />
 				</TouchableOpacity>
 				{renderStep(step)}
-				{/* <View className="flex justify-between h-full">
-					<View>
-						<View className="mb-7">
-							<Text className="text-primary font-[500] text-[34px] mb-4">
-								Change KodHex Name
-							</Text>
-							<Text className="text-[13px] font-[400] text-[#6B7280] leading-6">
-								A KodHex name is your unique identifier and helps your
-								friends find you easily
-							</Text>
-						</View>
-
-						<View>
-							<TextInput
-								className="border-[1px] border-[#D1D5DB] p-4 rounded-[6px] caret-primary focus:border-primary outline-none"
-								placeholder="Enter your kodhex"
-							/>
-
-							<View className="mt-9">
-								<View className="flex flex-row items-center gap-2 mb-4">
-									<CheckCircleIcon
-										size={15}
-										color="#9CA3AF"
-										strokeWidth={2}
-									/>
-									<Text className="text-[13px] font-[400] text-[#9CA3AF] leading-6">
-										Your Kodhex should not contain spaces or uppercase
-										letters
-									</Text>
-								</View>
-								<View className="flex flex-row items-center gap-2 mb-4">
-									<CheckCircleIcon
-										size={15}
-										color="#9CA3AF"
-										strokeWidth={2}
-									/>
-									<Text className="text-[13px] font-[400] text-[#9CA3AF] leading-6">
-										Your Kodhex should not contain spaces or uppercase
-										letters
-									</Text>
-								</View>
-								<View className="flex flex-row items-center gap-2 mb-4">
-									<View className="flex self-start">
-										<CheckCircleIcon
-											size={15}
-											color="#9CA3AF"
-											strokeWidth={2}
-											className="self-start"
-										/>
-									</View>
-									<Text className="text-[13px] font-[400] text-[#9CA3AF] leading-6">
-										Kodhex should contain a minimum of 6 characters
-										and a maximum of 15 characters
-									</Text>
-								</View>
-							</View>
-						</View>
-					</View>
-					<Text>{step}</Text>
-					<View className="mb-8">
-						<TouchableOpacity
-							className="bg-primary p-6 mb-4 rounded-[8px]"
-							onPress={handleNext}
-							activeOpacity={0.5}
-						>
-							<Text className="text-white text-center">Continue</Text>
-						</TouchableOpacity>
-					</View>
-				</View> */}
 				<ChangeKodhex />
 			</View>
 		</SafeAreaView>
