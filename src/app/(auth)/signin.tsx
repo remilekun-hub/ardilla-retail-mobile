@@ -103,7 +103,7 @@ export default function signin() {
 										Kodhex
 									</Text>
 									<TextInput
-										className="border-[1px] border-[#96abc9] p-4 rounded-[6px] caret-primary focus:border-primary outline-none"
+										className="border-[1px] border-[#D1D5DB] p-4 rounded-[6px] caret-primary focus:border-primary outline-none"
 										placeholder="Enter your kodhex"
 									/>
 								</View>
@@ -112,7 +112,7 @@ export default function signin() {
 										Password
 									</Text>
 									<TextInput
-										className="border-[1px] border-[#96abc9] p-4 rounded-[6px] caret-primary focus:border-primary outline-none"
+										className="border-[1px] border-[#D1D5DB] p-4 rounded-[6px] caret-primary focus:border-primary outline-none"
 										placeholder="Enter your password"
 									/>
 								</View>
@@ -124,7 +124,7 @@ export default function signin() {
 										Phone Number
 									</Text>
 									<TextInput
-										className="border-[1px] border-[#96abc9] p-4 rounded-[6px] caret-primary focus:border-primary outline-none"
+										className="border-[1px] border-[#D1D5DB] p-4 rounded-[6px] caret-primary focus:border-primary outline-none"
 										placeholder="Enter your phone number"
 									/>
 								</View>
@@ -133,7 +133,7 @@ export default function signin() {
 										Password
 									</Text>
 									<TextInput
-										className="border-[1px] border-[#96abc9] p-4 rounded-[6px] caret-primary focus:border-primary outline-none"
+										className="border-[1px] border-[#D1D5DB] p-4 rounded-[6px] caret-primary focus:border-primary outline-none"
 										placeholder="Enter your password"
 									/>
 								</View>

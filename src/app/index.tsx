@@ -5,6 +5,7 @@ import { Text, View, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Page() {
+
 	return (
 		<SafeAreaView>
 			<View className="flex h-full p-8 justify-between ">
